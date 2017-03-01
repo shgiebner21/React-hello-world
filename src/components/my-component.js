@@ -4,9 +4,9 @@ import React from 'react'
 var MyComponent = React.createClass({
   render: function() {
     return (
-      <h3 className={this.props.color}>
+      <h1 className={this.props.color}>
       <span>{this.props.title}</span>
-      </h3>
+      </h1>
     )
   }
 })
